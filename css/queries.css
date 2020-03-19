@@ -1,0 +1,34 @@
+@media only screen and (max-width: 1024px) {
+    .row, .title {
+        padding: 0px 2%;
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .row, .title {
+        padding: 0px 4%;
+    }
+
+    .img-box {
+        display: none;
+    }
+
+    .col-2 {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 425px) {
+    .col-3 {
+        width: 100%;
+    }
+    
+    .col {
+        width: 100%;
+        margin: 0 0 4% 0;
+        text-align: center;
+    }
+}
