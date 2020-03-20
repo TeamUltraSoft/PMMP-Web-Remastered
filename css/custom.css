@@ -193,6 +193,15 @@ img {
 
 /*End Plugins*/
 
+/* Footer*/
+footer {
+    background-color: #222822;
+    padding: 50px;
+    font-size: 80%;
+}
+
+
+
 /* h1, h2, h3, h4, h5, h6, p */
 
 h1 {

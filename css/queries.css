@@ -31,4 +31,13 @@
         margin: 0 0 4% 0;
         text-align: center;
     }
+
+    .p-col {
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+
+    .p-col-3 {
+        width: 100%;
+    }
 }
