@@ -42,6 +42,7 @@ section {
 a {
     background-color: transparent;
     text-decoration: none;
+    color: inherit;
 }
 
 /*Header*/
@@ -92,15 +93,11 @@ header {
 }
 
 .pmmp-img {
-    width: 50%;
+    width: 70%;
 }
 
 .img-box {
     text-align: center;
-}
-
-img {
-    border-radius: 10%;
 }
 
 /*End What's PMMP */
@@ -189,6 +186,7 @@ img {
 
 .plugin-img {
     text-align: center;
+    width: 90%;
 }
 
 /*End Plugins*/
@@ -198,9 +196,38 @@ footer {
     background-color: #222822;
     padding: 50px;
     font-size: 80%;
+    color: #e7e7e7;
 }
 
+.footer-img {
+    width: 100%;
+}
 
+.social-media {
+    list-style: none;
+    float: right;
+}
+
+.social-media li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.social-media li a:link, .social-media li a:visited {
+    text-decoration: none;
+    border: 0;
+    transition: color 0.2s;
+    font-size: 200%;
+}
+
+footer p {
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer p a {
+    text-decoration: underline;
+}
 
 /* h1, h2, h3, h4, h5, h6, p */
 
@@ -236,7 +263,7 @@ h2::after {
 }
 
 h3 {
-    font-size: 200%;
+    font-size: 220%;
     font-weight: 500;
     letter-spacing: 1px;
     margin-bottom: 30px;
