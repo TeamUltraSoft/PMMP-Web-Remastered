@@ -19,7 +19,28 @@
 <body>
 
 <header>
-    <nav></nav>
+    <nav class="">
+      <div class="row">
+        <img src="./img/pmmp.png" class="nav-img">
+        <ul class="nav">
+          <li><a href="#">Get PocketMine-MP</a></li>
+          <li><a href="#">Forums</a></li>
+          <li><a href="#">Github</a></li>
+          <li><a href="#">Documentation</a></li>
+          <li><a href="#">Poggit</a></li>
+       </ul>
+       <a onclick="openNav()" class="mobile-nav"><i class="fas fa-bars"></i></a>
+      </div>
+      <div id="sidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fas fa-times"></i></a>
+        <a href="#">Get PocketMine-MP</a>
+        <a href="#">Forums</a>
+        <a href="#">Github</a>
+        <a href="#">Documentation</a>
+        <a href="#">Poggit</a>
+      </div>
+
+    </nav>
     <div class="title">
         <span class="welcome">Create Your Server using</span>
         <h1>Pmmp</h1>
@@ -234,9 +255,11 @@
     </div>
   </div>
   <div class="row">
-    <p>© PocketMine MP | Made by <a href="#">Jean</a></p>
+    <p>©  | Made by <a href="#">Jean</a></p>
   </div>
 </footer>
+
+<script src="./js/custom.js"></script>
 
 </body>
 </html>

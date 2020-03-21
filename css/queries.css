@@ -24,6 +24,18 @@
         text-align: center;
     }
 
+    .nav {
+        display: none;
+    }
+
+    .mobile-nav {
+        display: inline-block;
+    }
+
+    .nav-img {
+        width: 50%;
+    }
+
 }
 
 @media only screen and (max-width: 425px) {
@@ -48,5 +60,6 @@
     .social-media {
         float: none;
         text-align: center;
+        margin-top: 10px;
     }
 }
