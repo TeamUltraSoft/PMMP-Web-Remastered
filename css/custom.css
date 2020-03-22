@@ -132,9 +132,9 @@ header {
     overflow-x: hidden; 
     padding-top: 2px; 
     margin-left: -250px;
-  }
+}
   
-  .sidenav a {
+.sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 120%;
@@ -142,17 +142,35 @@ header {
     display: block;
     transition: 0.3s;
     border-top: solid 1px rgba(255, 255, 255, 0.05);
-  }
+}
 
-  .sidenav a:hover, .sidenav a:active {
+.sidenav a:hover, .sidenav a:active {
     background-color: #1f1f1f;
-  }
+}
+
+.sticky-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(49, 49, 49);
+    z-index: 9999;
+}
+
+.sticky-nav .nav-img {
+    padding: 10px;
+    margin: 0;
+}
+
+.sticky-nav .nav {
+    margin-top: 15px;
+}
 
 /*End Header*/
 
 /* What's PMMP */
 
-.what-pmmp {
+.whats-pmmp {
     background: linear-gradient(to right, #141e30, #243b55);
     color: #fff;
 }
@@ -291,7 +309,7 @@ footer {
 }
 
 footer p {
-    margin-top: 10px;
+    margin-top: 20px;
     text-align: center;
 }
 

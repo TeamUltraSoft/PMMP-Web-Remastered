@@ -6,6 +6,18 @@ jQuery.fn.blindLeftToggle = function (duration, easing, complete) {
 
 $(document).ready(function() {
 
+    $('.js--whats-pmmp').waypoint(function(direction) {
+        if (direction == "down") {
+            $('nav').addClass('sticky-nav');
+        } 
+        else {
+            $('nav').removeClass('sticky-nav');
+        }
+    }, {
+          offset: '60px'
+    });
+
+
 $('.js--nav-icon').click(function() {
     var nav = $('.js--main-nav');
     var icon = $('.js--nav-icon i');
