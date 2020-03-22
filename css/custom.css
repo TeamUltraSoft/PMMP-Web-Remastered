@@ -50,7 +50,7 @@ a {
 header {
     height: 100vh;
     position: relative;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.7) 25%, rgba(0, 0, 0, 0.6) 100%), url(../img/);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.7) 25%, rgba(0, 0, 0, 0.6) 100%), url(../img/bg1.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -192,7 +192,7 @@ header {
 /* Features */
 
 .features {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.8) 25%, rgba(0, 0, 0, 0.6) 100%), url(../img/);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.8) 25%, rgba(0, 0, 0, 0.6) 100%), url(../img/bg2.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -261,7 +261,7 @@ header {
 }
 
 .p-author {
-    margin-bottom: 0;
+    margin-bottom: 3px;
     font-size: 17px;
     color: rgb(124, 124, 124);
 }
@@ -274,9 +274,18 @@ header {
 .plugin-img {
     text-align: center;
     width: 90%;
+    border: gray solid 2px;
+}
+
+.p-wm-btn {
+    
 }
 
 /*End Plugins*/
+
+/*Featured Servers*/
+
+
 
 /* Footer*/
 footer {

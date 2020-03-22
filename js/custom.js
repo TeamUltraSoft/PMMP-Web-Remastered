@@ -6,7 +6,7 @@ jQuery.fn.blindLeftToggle = function (duration, easing, complete) {
 
 $(document).ready(function() {
 
-    $('.js--whats-pmmp').waypoint(function(direction) {
+    $('.whats-pmmp').waypoint(function(direction) {
         if (direction == "down") {
             $('nav').addClass('sticky-nav');
         } 
@@ -17,10 +17,14 @@ $(document).ready(function() {
           offset: '60px'
     });
 
+    $('.scroll-to').click(function() {
+        $('html, body').animate({scrollTop: $('.whats-pmmp').offset().top}, 1000)
+    })
 
-$('.js--nav-icon').click(function() {
-    var nav = $('.js--main-nav');
-    var icon = $('.js--nav-icon i');
+
+$('.mobile-nav').click(function() {
+    var nav = $('.sidenav');
+    var icon = $('.mobile-nav i');
     
     nav.blindLeftToggle(500);
 
