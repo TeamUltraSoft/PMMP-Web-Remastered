@@ -17,13 +17,7 @@
   <link href="./css/dark-custom.css" rel="stylesheet" type="text/css">
 </head>
 
-<body onload="myLoader()">
-  
-<div id="page">
-  <div class="loader"></div>
-</div>
-
-<div id="pmmpWeb">
+<body>
 
 <header>
     <nav>
@@ -294,20 +288,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="./js/custom.js"></script>
 <script src="./js/waypoint.js"></script>
-
-<script>
-  var myVar;
-  
-  function myLoader() {
-    myVar = setTimeout(showPage, 2000);
-  }
-  
-  function showPage() {
-    document.getElementById("page").style.display = "none";
-    document.getElementById("pmmpWeb").style.display = "block";
-    
-  }
-</script>
 
 </body>
 </html>
