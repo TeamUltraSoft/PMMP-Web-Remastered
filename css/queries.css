@@ -45,6 +45,11 @@
         float: left;
     }
 
+    .dark-toggle {
+        left: 90%;
+        top: 88%;
+    }
+
 }
 
 @media only screen and (max-width: 425px) {
@@ -85,6 +90,11 @@
 
     .server-img {
         height: 35%;
+    }
+
+    .dark-toggle {
+        left: 85%;
+        top: 88%;
     }
 
 }
