@@ -460,3 +460,36 @@ p {
     display: flex;
 }
 
+@media (prefers-color-scheme: dark) {
+    header {
+        background-image: url(../img/bg1-dark.jpg);
+    }
+    
+    .features {
+        background-image: url(../img/bg2-dark.jpg);
+    }
+    
+    .whats-pmmp {
+        background: linear-gradient(to right, #232526, #414345);
+    }
+    
+    .white-box {
+        background-color: #222;
+        color: #f2f2f2;
+    }
+    
+    .white-box .icon-box {
+        background-color: #f2f2f2;
+        color: #222;
+    }
+    
+    .plugins {
+        background-color: #222222;
+        color: #f2f2f2;
+    }
+    
+    .servers {
+        background-color: #222222;
+        color: #f2f2f2;
+    }
+}
