@@ -53,7 +53,7 @@ header {
     background-image: url(../img/bg1.jpg);
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: scroll;
 }
 
 .title {
@@ -194,9 +194,9 @@ header {
 
 .features {
     background-image: url(../img/bg3.jpg);
-    background-position: center;
     background-size: cover;
-    background-attachment: fixed;
+    background-position: center;
+    background-attachment: scroll;
 }
 
 .f-title {
