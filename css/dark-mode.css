@@ -3,7 +3,15 @@
 }
 
 .dark .features {
-    background-image: url(../img/bg2-dark.jpg);
+    background-color: #222222;
+}
+
+.dark .f-title {
+    color: #fff;
+}
+
+.dark .f-title::after {
+    background-color: #fff;
 }
 
 .dark .whats-pmmp {
@@ -40,7 +48,15 @@
     }
     
     .features {
-        background-image: url(../img/bg2-dark.jpg);
+        background-color: #222222;
+    }
+
+    .f-title {
+        color: #fff;
+    }
+
+    .f-title::after {
+        background-color: #fff;
     }
     
     .whats-pmmp {
