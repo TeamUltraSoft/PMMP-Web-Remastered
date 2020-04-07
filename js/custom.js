@@ -25,17 +25,9 @@ $(document).ready(function() {
 $('.mobile-nav').click(function() {
     var nav = $('.sidenav');
     var icon = $('.mobile-nav i');
-    
+
     nav.blindLeftToggle(500);
 
-    if (icon.hasClass('fas fa-bars')) {
-        icon.removeClass('fas fa-bars');
-        icon.addClass('fas fa-times');
-    } 
-    else {
-        icon.removeClass('fas fa-times');
-        icon.addClass('fas fa-bars');
-    }
 })
     
 });
